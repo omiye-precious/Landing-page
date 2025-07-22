@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syncly - Collaborate Smarter</title>
+  <link rel="stylesheet" href="plp.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Syncly</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#how">How It Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="hamburger">&#9776;</button>
+    <button id="darkModeToggle">🌙</button>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <div class="hero-text">
+      <h1>Smarter Collaboration for Remote Teams</h1>
+      <p>Boost your team's productivity with Syncly – the smart remote workspace.</p>
+      <a href="#contact" class="btn">Try Free</a>
+    </div>
+    <div class="hero-img">
+      <img src="pp.png" alt="Hero image" />
+    </div>
+  </section>
+
+  <section class="features" id="features" data-aos="fade-up">
+    <h2>Powerful Features</h2>
+    <div class="grid">
+      <div class="card">✅ Task Management</div>
+      <div class="card">🗣️ Real-time Chat</div>
+      <div class="card">📊 Dashboard Analytics</div>
+      <div class="card">🌙 Dark Mode</div>
+    </div>
+  </section>
+
+  <section class="how" id="how" data-aos="fade-up">
+    <h2>How Syncly Works</h2>
+    <p>Get started in minutes. Add your team, assign tasks, and start collaborating effortlessly.</p>
+    <img src="pp2.png" alt="Dashboard mockup" />
+  </section>
+
+  <section class="contact" id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="form-status" id="formStatus"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Syncly. Built for productivity.</p>
+  </footer>
+
+  <script src="plp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
